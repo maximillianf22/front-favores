@@ -137,11 +137,11 @@
                <div class="store-header-2-x-alingSearchContent">
 
                     <div class="store-header-2-x-menuContent">
-                         <div style="width:25px;"> <img src="http://cafri.com.co/content/upload/app/menu.png" style="vertical-align: middle;" viewbox="0 0 30 30" data-toggle="modal" data-target="#modal-left"> </div>
+                         <div style="width:25px;"> <img src="{{ asset('/content/upload/app/menu.png') }}" style="vertical-align: middle;" viewbox="0 0 30 30" data-toggle="modal" data-target="#modal-left"> </div>
                     </div>
                
                     <div class="store-header-2-x-logoContent">
-                         <div><a href="/"><img src="http://favores.ventual.co/content/upload/favores_logo.png" width="80%" alt="Inicio" crossorigin="anonymous"></a></div>
+                         <div><a href="/"><img src="{{ asset('/content/upload/theme/logo_slogan.png') }}" width="80%" alt="Inicio" crossorigin="anonymous"></a></div>
                     </div>
                     
                </div>
@@ -175,7 +175,7 @@
                                         <div class="store-header-2-x-minicartButtonMobile store-header-2-x-minicartButton">
                                              <div class="store-header-2-x-minicartInner txt-center">
                                                   <span id="show_cnt_products" class="store-item-car-products hide_item"><span id="cnt-add-products" class="store-header-2-x-minicartBadge store-header-2-x-pulsate">0</span></span>
-                                                  <img src="http://cafri.com.co/content/upload/app/cart.png" width="80%" height="80%" style="display: inline-block; fill: black; vertical-align: middle;" viewbox="0 0 30 30">
+                                                  <img src="{{ asset('/content/upload/app/cart.png') }}" width="80%" height="80%" style="display: inline-block; fill: black; vertical-align: middle;" viewbox="0 0 30 30">
                                              </div>
                                         </div>
                                    </div>
@@ -302,7 +302,7 @@
                             <div class="card-body p-0">
                               <div class="content-bottom">
                                 <h5 class="card-title text-center">
-                                 Papas
+                                 Tecnología
                                 </h5>
                               </div>
                             </div>
@@ -317,7 +317,7 @@
                             <div class="card-body p-0">
                               <div class="content-bottom">
                                 <h5 class="card-title text-center">
-                                 Lácteos
+                                 Super Mercado
                                 </h5>
                               </div>
                             </div>
@@ -332,7 +332,7 @@
                             <div class="card-body p-0">
                               <div class="content-bottom">
                                 <h5 class="card-title text-center">
-                                 Embutidos
+                                 Salud
                                 </h5>
                               </div>
                             </div>
@@ -347,7 +347,7 @@
                             <div class="card-body p-0">
                               <div class="content-bottom">
                                 <h5 class="card-title text-center">
-                                 Panadería
+                                 Hogar
                                 </h5>
                               </div>
                             </div>
@@ -362,7 +362,7 @@
                             <div class="card-body p-0">
                               <div class="content-bottom">
                                 <h5 class="card-title text-center">
-                                 Desechables
+                                 Solicitar Domicilio
                                 </h5>
                               </div>
                             </div>
