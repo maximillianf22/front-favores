@@ -194,9 +194,6 @@
           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <a href="http://" target="new"> <img src="http://favores.ventual.co/storage/sliders/item__2020_05_01_22_18_17.jpeg" alt="Slider"></a>
-                  </div>
-                  <div class="carousel-item">
                     <a href="http://" target="new"> <img src="{{ asset('/front/images/banner.png') }}" alt="Slider"></a>
                   </div>
                   <div class="carousel-item">
