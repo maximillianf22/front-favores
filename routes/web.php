@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('inicio');
 });
 
+Route::get('dilifavor', function () {
+    return view('dilifavor');
+});
+
 Route::get('categoria', function () {
     return view('categoria');
 });

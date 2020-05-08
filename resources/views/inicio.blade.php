@@ -8,7 +8,7 @@
   <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/apple-icon.png') }}">
   <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
   <title>
-    Ventual TuRestaurante
+    Favores
   </title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -43,7 +43,6 @@
     }
     .modal {
       position: :fixed;
-      top: 15vh;
     }
 
     .footer {
@@ -52,11 +51,11 @@
     }
 
     .card-background.card-blog {
-    height: 200px;
+    height: 250px;
     }
     .card-background .card-body {
        
-        min-height: 200px;
+        min-height: 250px;
     }
 
           .card-background:after {
@@ -129,40 +128,34 @@
         </div>
     </div>
 </nav>
-<div class="container_fluid menu-top-page shadow-sm p-1">
+<div class="container_fluid menu-top-page shadow p-1">
  <div class="row ">
-     
      <div class="col col-lg-6 col-md-6 col-sm-6 ">
           <div class="store-header-2-x-search">
                <div class="store-header-2-x-alingSearchContent">
-
                     <div class="store-header-2-x-menuContent">
                          <div style="width:25px;"> <img src="{{ asset('/content/upload/app/menu.png') }}" style="vertical-align: middle;" viewbox="0 0 30 30" data-toggle="modal" data-target="#modal-left"> </div>
                     </div>
-               
                     <div class="store-header-2-x-logoContent">
                          <div><a href="/"><img src="{{ asset('/content/upload/theme/logo_slogan.png') }}" width="80%" alt="Inicio" crossorigin="anonymous"></a></div>
                     </div>
-                    
                </div>
           </div>
      </div>
-
      <div class="col col-lg-6 col-md-6 col-sm-6 pad-all">
           <div class="header-options-user pad-rgt">
                <div class="header-links-content pad-all">
-                                        
-                                        <div class="minicart-content item-header-link flex justify-center border-right">
+                      <div class="minicart-content item-header-link flex justify-center border-right">
                          <div class="minicart-content minicart-content-mobile mr-5">
                               <aside class="store-minicart-3-x-container relative fr flex items-center">
                                    <div class="flex flex-column txt-center ">
                                         <div class="store-header-2-x-minicartButtonMobile store-header-2-x-minicartButton">
                                              <div class="txt-center m-5">
-                                                                                                    <a class="btn btn-outline-secondary btn-round mt-1 mr-5" href="http://favores.ventual.co/login">
+                                              <a class="btn btn-outline-secondary btn-round mt-1 mr-5" href="http://favores.ventual.co/login">
                                                       <span class="nav-link-inner--text text-nowrap text-dark"><i class="fas fa-user"></i> Iniciar Sesion</span>
                                                   </a>
-                                                                                               </div>
-                                                                                                                                  </div>
+                                              </div>
+                                         </div>
                                    </div>
                               </aside>
                          </div>
@@ -190,11 +183,123 @@
 </div>
 
 
+<div class="content-slider shadow-sm" style="border-top: 2px solid #c1c1c1;
+                                   border-bottom: 0px;">
+     <section class="jumbotron1">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="http://" target="new"> <img src="http://favores.ventual.co/storage/sliders/item__2020_05_01_22_18_17.jpeg" alt="Slider"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://" target="new"> <img src="{{ asset('/front/images/banner.png') }}" alt="Slider"></a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="http://" target="new"> <img src="{{ asset('/front/images/banner2.png') }}" alt="Slider"></a>
+                  </div>
+                    <a class="carousel-control-prev" href="#carousel-example-generic" data-slide="prev">
+                       <i class="lni-chevron-left" style="font-size:32px; font-weight:bold"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-example-generic" data-slide="next">
+                      <i class="lni-chevron-right" style="font-size:32px; font-weight:bold"></i>
+                    </a>
+               </div>
+               <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+                </ol>
+          </div>
+     </section>
+</div>
+<div class="grid-category center-grid-category container mt-5">
+     <div class="container-fluid pad-lft pad-rgt pad-btm ">
+          <div class="pad-all">
+               <div class="row pad-all mx-auto">
+                    <div class="col-lg-4 col-md-3 col-sm-6 col-6">
+                        <div class="card card-blog card-background" data-animation="zooming" style="border-radius: 1.2rem;">
+                          <div class="full-background" style="background-image: url('https://www.loginstore.com/imagenes/banner-superior-ofertas-mobile.jpg')">
+                          </div>
+                            <a href="#papas" id="id-category-3" alt="Papas" title="Papas " crossorigin="anonymous">
+                            <div class="card-body p-0">
+                              <div class="content-bottom">
+                                <h5 class="card-title text-center">
+                                 Tecnología
+                                </h5>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>        
+                  <div class="col-lg-4 col-md-3 col-sm-6 col-6">
+                      <div class="card card-blog card-background" data-animation="zooming" style="border-radius: 1.2rem;">
+                          <div class="full-background" style="background-image: url('https://live.mrf.io/statics/i/ps/www.ecestaticos.com/imagestatic/clipping/420/dc3/420dc32cdb6f666e69b7869224cdc302/las-cosas-que-no-deberias-comprar-en-el-supermercado.jpg?mtime=1579565836')">
+                          </div>
+                              <a href="#lacteos" id="id-category-1" alt="Lácteos" title="Lácteos " crossorigin="anonymous">
+                            <div class="card-body p-0">
+                              <div class="content-bottom">
+                                <h5 class="card-title text-center">
+                                 Super Mercado
+                                </h5>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    <div class="col-lg-4 col-md-3 col-sm-6 col-6">
+                        <div class="card card-blog card-background" data-animation="zooming" style="border-radius: 1.2rem;">
+                          <div class="full-background" style="background-image: url('https://concepto.de/wp-content/uploads/2013/08/salud-OMS-e1551914081412.jpg')">
+                            </div>
+                                <a href="#embutidos" id="id-category-6" alt="Embutidos" title="Embutidos " crossorigin="anonymous">
+                            <div class="card-body p-0">
+                              <div class="content-bottom">
+                                <h5 class="card-title text-center">
+                                 Salud
+                                </h5>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    <div class="col-lg-4 col-md-3 col-sm-6 col-6">
+                        <div class="card card-blog card-background" data-animation="zooming" style="border-radius: 1.2rem;">
+                          <div class="full-background" style="background-image: url('https://mejorconsalud.com/wp-content/uploads/2018/09/hogar-casa-familia.jpg?width=1200&enable=upscale')">
+                          </div>
+                              <a href="#panaderia" id="id-category-5" alt="Panadería" title="Panadería " crossorigin="anonymous">
+                            <div class="card-body p-0">
+                              <div class="content-bottom">
+                                <h5 class="card-title text-center">
+                                 Hogar
+                                </h5>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+                        <div class="card card-blog card-background" data-animation="zooming" style="border-radius: 1.2rem;">
+                          <div class="full-background" style="background-image: url('https://linkempleo.co/wp-content/uploads/2018/09/Mensajero-domiciliario-rew.jpg')">
+                          </div>
+                              <a href="dilifavor" id="id-category-8" alt="Desechables" title="Desechables " crossorigin="anonymous">
+                            <div class="card-body p-0">
+                              <div class="content-bottom">
+                                <h5 class="card-title text-center">
+                                 Solicitar Domicilio
+                                </h5>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                    </div>
+                </div>
+          </div>
+     </div>
+</div>
+
+
+
+
 <div class="container p-4" style="background: #edf2f7;">
   <div class="col-md-12 p-0">
-     <div class="col-md-12 mx-auto"><br>
-    <p class="lead mt-1 font-weight-bold">Super Ofertas</p>
-  </div>
     <div class="row row-cols-1 row-cols-md-3">
         <div class="owl-carousel owl-head owl-theme owl-loaded owl-drag">
         <div class="owl-stage-outer">
@@ -286,105 +391,12 @@
   </div>
 </div>
 
-<div class="grid-category center-grid-category container">
-     <div class="container-fluid pad-lft pad-rgt pad-btm ">
-      <div class="col-md-12 mx-auto"><br>
-    <h3 class="display-3">Categorias Disponibles</h3>
-    <p class="lead mt-1">¡Explora nuestras variedad de productos en nuestras secciones!</p>
-  </div>
-          <div class="pad-all">
-               <div class="row pad-all">
-                                        <div class="col-lg-4 col-md-3 col-sm-6 col-6">
-                        <div class="card card-blog card-background" data-animation="zooming" style="border-radius: 1.2rem;">
-                                                    <div class="full-background" style="background-image: url('http://cafri.com.co/storage/categories/item_categoriapapasss.jpg')">
-                          </div>
-                                                    <a href="http://cafri.com.co/store/category/papas" id="id-category-3" alt="Papas" title="Papas " crossorigin="anonymous">
-                            <div class="card-body p-0">
-                              <div class="content-bottom">
-                                <h5 class="card-title text-center">
-                                 Tecnología
-                                </h5>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                      </div>        
-                                        <div class="col-lg-4 col-md-3 col-sm-6 col-6">
-                        <div class="card card-blog card-background" data-animation="zooming" style="border-radius: 1.2rem;">
-                                                    <div class="full-background" style="background-image: url('http://cafri.com.co/storage/categories/item_lacteos.jpg')">
-                          </div>
-                                                    <a href="http://cafri.com.co/store/category/lacteos" id="id-category-1" alt="Lácteos" title="Lácteos " crossorigin="anonymous">
-                            <div class="card-body p-0">
-                              <div class="content-bottom">
-                                <h5 class="card-title text-center">
-                                 Super Mercado
-                                </h5>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                                        <div class="col-lg-4 col-md-3 col-sm-6 col-6">
-                        <div class="card card-blog card-background" data-animation="zooming" style="border-radius: 1.2rem;">
-                                                    <div class="full-background" style="background-image: url('http://cafri.com.co/storage/categories/item_embutidos.jpeg')">
-                          </div>
-                                                    <a href="http://cafri.com.co/store/category/embutidos" id="id-category-6" alt="Embutidos" title="Embutidos " crossorigin="anonymous">
-                            <div class="card-body p-0">
-                              <div class="content-bottom">
-                                <h5 class="card-title text-center">
-                                 Salud
-                                </h5>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                                        <div class="col-lg-4 col-md-3 col-sm-6 col-6">
-                        <div class="card card-blog card-background" data-animation="zooming" style="border-radius: 1.2rem;">
-                                                    <div class="full-background" style="background-image: url('http://cafri.com.co/storage/categories/item_CATEGORIA PAN.jpg')">
-                          </div>
-                                                    <a href="http://cafri.com.co/store/category/panaderia" id="id-category-5" alt="Panadería" title="Panadería " crossorigin="anonymous">
-                            <div class="card-body p-0">
-                              <div class="content-bottom">
-                                <h5 class="card-title text-center">
-                                 Hogar
-                                </h5>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                                        <div class="col-lg-8 col-md-3 col-sm-6 col-6">
-                        <div class="card card-blog card-background" data-animation="zooming" style="border-radius: 1.2rem;">
-                                                    <div class="full-background" style="background-image: url('http://cafri.com.co/storage/categories/item_desechables1.jpg')">
-                          </div>
-                                                    <a href="http://cafri.com.co/store/category/desechables" id="id-category-8" alt="Desechables" title="Desechables " crossorigin="anonymous">
-                            <div class="card-body p-0">
-                              <div class="content-bottom">
-                                <h5 class="card-title text-center">
-                                 Solicitar Domicilio
-                                </h5>
-                              </div>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                                   </div>
-          </div>
-     </div>
-</div>
-
-
-
-
-
-
 
 <div class="container p-4">
   <div class="row m-2 border-top">
-    <div class="col-6 display-5 text-uppercase font-weight-bold mt-2 ">Categoria</div>
+    <div class="col-6 display-5 text-uppercase font-weight-bold mt-4 ">Tecnología</div>
     <div class="col-6 text-right">
-      <a class="btn btn-outline-info btn-sm btn-round mt-2" href="#">
+      <a class="btn btn-outline-info btn-sm btn-round mt-4" href="#">
           VER MAS
       </a>
     </div>
@@ -394,181 +406,32 @@
         <div class="owl-carousel owl-products owl-theme owl-loaded owl-drag">
         <div class="owl-stage-outer">
         <div class="owl-stage">
-          <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
+
+          <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
             <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
                   </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="http://toolbox.ventual.co/files/filesProduct/20191030131938-69-tv_49_sam.jpg" alt="Producto">
                       </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Televisor 43Pulgadas</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 4.850.000
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
                     </div>
-                  </div>
                 </div>
-              </div>
+              </a>
+             </div>
             </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container">
-                        <span class="price lead"><small> € 99 </small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -578,9 +441,9 @@
 
 <div class="container p-4">
   <div class="row m-2 border-top">
-    <div class="col-6 display-5 text-uppercase font-weight-bold mt-2 ">Categoria</div>
+    <div class="col-6 display-5 text-uppercase font-weight-bold mt-4 ">Hogar</div>
     <div class="col-6 text-right">
-      <a class="btn btn-outline-info btn-sm btn-round mt-2" href="#">
+      <a class="btn btn-outline-info btn-sm btn-round mt-4" href="#">
           VER MAS
       </a>
     </div>
@@ -590,192 +453,44 @@
         <div class="owl-carousel owl-products owl-theme owl-loaded owl-drag">
         <div class="owl-stage-outer">
         <div class="owl-stage">
-          <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
+
+          <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
             <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
                   </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/873768-500-auto?width=500&height=auto&aspect=true" alt="Producto">
                       </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Caribe Vaso 7 OZ Desechable</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
                     </div>
-                  </div>
                 </div>
-              </div>
+              </a>
+             </div>
             </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container">
-                        <span class="price lead"><small> € 99 </small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
 <div class="container p-4">
   <div class="row m-2 border-top">
-    <div class="col-6 display-5 text-uppercase font-weight-bold mt-2 ">Categoria</div>
+    <div class="col-6 display-5 text-uppercase font-weight-bold mt-4 ">Salud</div>
     <div class="col-6 text-right">
-      <a class="btn btn-outline-info btn-sm btn-round mt-2" href="#">
+      <a class="btn btn-outline-info btn-sm btn-round mt-4" href="#">
           VER MAS
       </a>
     </div>
@@ -785,192 +500,44 @@
         <div class="owl-carousel owl-products owl-theme owl-loaded owl-drag">
         <div class="owl-stage-outer">
         <div class="owl-stage">
-          <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
+
+          <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
             <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
                   </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="http://toolbox.ventual.co/files/fotoPerfil/LOGO%20FARMA.png" alt="Producto">
                       </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Gasa Farmacia</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
                     </div>
-                  </div>
                 </div>
-              </div>
+              </a>
+             </div>
             </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container">
-                        <span class="price lead"><small> € 99 </small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
 <div class="container p-4">
   <div class="row m-2 border-top">
-    <div class="col-6 display-5 text-uppercase font-weight-bold mt-2 ">Categoria</div>
+    <div class="col-6 display-5 text-uppercase font-weight-bold mt-4 ">Super Mercado</div>
     <div class="col-6 text-right">
-      <a class="btn btn-outline-info btn-sm btn-round mt-2" href="#">
+      <a class="btn btn-outline-info btn-sm btn-round mt-4" href="#">
           VER MAS
       </a>
     </div>
@@ -980,376 +547,32 @@
         <div class="owl-carousel owl-products owl-theme owl-loaded owl-drag">
         <div class="owl-stage-outer">
         <div class="owl-stage">
-          <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
+
+          <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
             <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
                   </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="http://toolbox.ventual.co/files/filesProduct/20191116154710-68-Pan_Tajado.png" alt="Producto">
                       </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Pan Tajado Bimbo</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
                     </div>
-                  </div>
                 </div>
-              </div>
+              </a>
+             </div>
             </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container">
-                        <span class="price lead"><small> € 99 </small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="container p-4">
-  <div class="row m-2 border-top">
-    <div class="col-6 display-5 text-uppercase font-weight-bold mt-2 ">Categoria</div>
-    <div class="col-6 text-right">
-      <a class="btn btn-outline-info btn-sm btn-round mt-2" href="#">
-          VER MAS
-      </a>
-    </div>
-  </div>
-  <div class="col-md-12 p-0">
-    <div class="row row-cols-1 row-cols-md-3">
-        <div class="owl-carousel owl-products owl-theme owl-loaded owl-drag">
-        <div class="owl-stage-outer">
-        <div class="owl-stage">
-          <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container row mx-auto">
-                        <span class="price lead col-6 text-danger"><small> € 99 </small></span>
-                        <span class="price lead col-6"><small>+1 variacion</small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="owl-item shad card border col-lg-2 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
-            <div class="item card-lift--hover">
-              <div class="card-product m-0">
-                  <div class="card-image">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <img src="http://cafri.com.co/storage/products/item_20200417164522.jpg" alt="...">
-                    </a>
-                  </div>
-                  <div class="card-body p-3">
-                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
-                      <h6 class="card-title font-weight-bold text-center">Winter Hat</h6>
-                    </a>
-                    <div class="card-footer">
-                      <div class="price-container">
-                        <span class="price lead"><small> € 99 </small></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -1540,14 +763,14 @@
                 <div class="card-body">
                   <div class="category-list item">
                     <ul>
-                      <li style="padding:5px;"><a href="http://cafri.com.co/store/category/papas"> Papas</a></li>
-                      <li style="padding:5px;"><a href="http://cafri.com.co/store/category/salsas"> Salsas</a></li>
-                      <li style="padding:5px;"><a href="http://cafri.com.co/store/category/bebidas"> Bebidas</a></li>
-                      <li style="padding:5px;"><a href="http://cafri.com.co/store/category/aderezos"> Aderezos</a></li>
-                      <li style="padding:5px;"><a href="http://cafri.com.co/store/category/lacteos"> Lácteos</a></li>
-                      <li style="padding:5px;"><a href="http://cafri.com.co/store/category/embutidos"> Embutidos</a></li>
-                      <li style="padding:5px;"><a href="http://cafri.com.co/store/category/panaderia"> Panadería</a></li>
-                      <li style="padding:5px;"><a href="http://cafri.com.co/store/category/desechables"> Desechables</a></li>
+                      <li style="padding:5px;"><a href="#papas"> Papas</a></li>
+                      <li style="padding:5px;"><a href="#salsas"> Salsas</a></li>
+                      <li style="padding:5px;"><a href="#bebidas"> Bebidas</a></li>
+                      <li style="padding:5px;"><a href="#aderezos"> Aderezos</a></li>
+                      <li style="padding:5px;"><a href="#lacteos"> Lácteos</a></li>
+                      <li style="padding:5px;"><a href="#embutidos"> Embutidos</a></li>
+                      <li style="padding:5px;"><a href="#panaderia"> Panadería</a></li>
+                      <li style="padding:5px;"><a href="#desechables"> Desechables</a></li>
                     </ul>
                   </div>
                 </div>
@@ -1563,34 +786,34 @@
   </div>
 </div>
 
-<footer class="footer" style="border-top: 1px solid #636060; padding-top: 40px; margin-top:20px;">
+<footer class="footer bg-gradient-secondary" style="border-top: 1px solid #636060; padding-top: 40px; margin-top:20px;">
         <div class="container-fluid">
           <div class="row bg-grey">
           <div class="col-4">
             <div class="info info-hover">
               <div class="icon icon-shape icon-shape-success icon-lg shadow rounded-circle text-success">
-                <i class="fas fa-credit-card fa-2x"></i>
+                <i class="fas fa-credit-card fa-3x"></i>
               </div>
-              <h4 class="info-title  d-none d-sm-none d-md-block">Pago en linea o <br>Contraentrega</h4>
-              <p class="description px-0 text-center lead d-none d-sm-none d-md-block"> Puedes pagar en linea y aprovecha la comodidad que te ofrecemos, o hazlo con efectivo en Contra Entrega. ¡Y siempre seguro!</p>
+              <h5 class="info-title  d-none d-sm-none d-md-block"><strong> Pagos </strong><br>En linea o Contraentrega</h5>
+              <p class="description px-0 text-center lead d-none d-sm-none d-md-block mt-0"> <small>  Puedes pagar en linea y aprovecha la comodidad que te ofrecemos, o hazlo con efectivo en Contra Entrega. ¡Y siempre seguro!</small></p>
             </div>
           </div>
-          <div class="col-4 border-left border-right">
-            <div class="info info-hover">
+          <div class="col-4 border-left ">
+            <div class="info info-hover border-right">
               <div class="icon icon-shape icon-shape-success icon-lg shadow rounded-circle text-success">
-                <i class="fas fa-truck fa-2x"></i>
+                <i class="fas fa-truck fa-3x"></i>
               </div>
-              <h4 class="info-title  d-none d-sm-none d-md-block">Envíos rápidos y <br>seguros</h4>
-              <p class="description px-0 text-center lead d-none d-sm-none d-md-block">Con solo estar registrado en Nuestra Web, Puedes Contar que siempre tendrás tus envios a tiempo y en la mejor condición.</p>
+              <h5 class="info-title  d-none d-sm-none d-md-block"><strong>  Envíos </strong><br>Rápidos y seguros</h5>
+              <p class="description px-0 text-center lead d-none d-sm-none d-md-block mt-0"><small> Con solo estar registrado en Nuestra Web, Puedes Contar que siempre tendrás tus envios a tiempo y en la mejor condición.</small></p>
             </div>
           </div>
           <div class="col-4">
             <div class="info info-hover">
               <div class="icon icon-shape icon-shape-success icon-lg shadow rounded-circle text-success">
-                <i class="fa fa-shield-alt fa-2x"></i>
+                <i class="fas fa-shield-alt fa-3x"></i>
               </div>
-              <h4 class="info-title  d-none d-sm-none d-md-block">Seguridad, de principio <br>a fin</h4>
-              <p class="description px-0 text-center lead d-none d-sm-none d-md-block">¿No te gusta? ¡Devuélvelo! En Favores, estás siempre protegido si el producto no es el que deseas o no esta en condiciones ¡Devuelvelo!.</p>
+              <h5 class="info-title  d-none d-sm-none d-md-block"><strong>  Seguridad </strong><br>De principio a fin</h5>
+              <p class="description px-0 text-center lead d-none d-sm-none d-md-block mt-0"><small> ¿No te gusta? ¡Devuélvelo! En Favores, estás siempre protegido si el producto no es el que deseas o no esta en condiciones ¡Devuelvelo!.</small></p>
             </div>
           </div>
         </div>
