@@ -431,6 +431,109 @@
              </div>
             </div>
 
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/973705-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Smart Watch</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 4.850.000
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/1166423-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Samsung A51</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 4.850.000
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/1053009-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Huawei p30</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 4.850.000
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="http://toolbox.ventual.co/files/filesProduct/20191030131938-69-tv_49_sam.jpg" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Televisor 43Pulgadas</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 4.850.000
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+
+
           </div>
         </div>
       </div>
@@ -460,10 +563,135 @@
                   <div class="categorie">
                   </div>
                      <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/972705-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Cama queen</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
                         <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/873768-500-auto?width=500&height=auto&aspect=true" alt="Producto">
                       </div>
                       <div class="info-article mt-4 mb-3">
-                        <div class="name text-center mx-auto">Caribe Vaso 7 OZ Desechable</div>
+                        <div class="name text-center mx-auto">Closet </div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/606018-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Closet Doble</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/1580842-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Modular</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/1581106-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Nochera</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/1056065-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Mesa de Estar</div>
                        <div class="info-price ">
                           <div class="item-price">
                              $ 981
@@ -525,6 +753,106 @@
              </div>
             </div>
 
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/1678760-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Plancha Especial</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/255655-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Maquina Profesional</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/1252757-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Secado de Cabello</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/626750-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Set Cuidado Masculino</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -554,10 +882,110 @@
                   <div class="categorie">
                   </div>
                      <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/1818332-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Harina de Maiz</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/687016-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Granos</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
                         <img id="logoTheme" src="http://toolbox.ventual.co/files/filesProduct/20191116154710-68-Pan_Tajado.png" alt="Producto">
                       </div>
                       <div class="info-article mt-4 mb-3">
                         <div class="name text-center mx-auto">Pan Tajado Bimbo</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/1706171-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Salchicha Ranchera</div>
+                       <div class="info-price ">
+                          <div class="item-price">
+                             $ 981
+                          </div>
+                       </div>
+                        <span class="badge badge-secondary">
+                         Sin variaciones
+                       </span>
+                    </div>
+                </div>
+              </a>
+             </div>
+            </div>
+
+            <div class="owl-item col-lg-2 col-md-3 col-sm-4 col-6 p-0 mt-4">
+            <div class="item card-lift--hover">
+              <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                <div class="sc-item-store">
+                  <div class="categorie">
+                  </div>
+                     <div class="img-card-product-ql">
+                        <img id="logoTheme" src="https://exitocol.vtexassets.com/arquivos/ids/662041-500-auto?width=500&height=auto&aspect=true" alt="Producto">
+                      </div>
+                      <div class="info-article mt-4 mb-3">
+                        <div class="name text-center mx-auto">Zanahoria</div>
                        <div class="info-price ">
                           <div class="item-price">
                              $ 981
