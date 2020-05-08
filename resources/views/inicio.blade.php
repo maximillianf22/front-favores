@@ -6,7 +6,6 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/apple-icon.png') }}">
-  <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
   <title>
     Favores
   </title>
@@ -195,7 +194,7 @@
                     <a href="http://" target="new"> <img src="{{ asset('/front/images/banner.png') }}" alt="Slider"></a>
                   </div>
                   <div class="carousel-item">
-                    <a href="http://" target="new"> <img src="{{ asset('/front/images/banner2.png') }}" alt="Slider"></a>
+                    <a href="http://" target="new"> <img src="{{ asset('/front/images/Banner2.png') }}" alt="Slider"></a>
                   </div>
                     <a class="carousel-control-prev" href="#carousel-example-generic" data-slide="prev">
                        <i class="lni-chevron-left" style="font-size:32px; font-weight:bold"></i>
