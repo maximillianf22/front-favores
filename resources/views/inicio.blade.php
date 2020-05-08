@@ -85,10 +85,9 @@
         visibility: visible;
       }
 
-      .owl-carousel .owl-iem img{
-        width: 75%
-        margin:auto;
-
+      .product-ql img {
+        width: 75%;
+        margin: auto;
       }
   </style>
 </head>
