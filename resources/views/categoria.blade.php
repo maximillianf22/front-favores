@@ -133,7 +133,7 @@
 </div>
 </div>
 
- <div class="col-3 fixed-top" style="margin-top: 140px">
+ <div class="col-3 fixed-top d-none d-sm-none d-md-block" style="margin-top: 140px">
       <div class="list-group bg-white">
         <button type="button" class="list-group-item list-group-item-action active">
           Super Mercado &nbsp;<i class="fa fa-angle-right"></i>
@@ -156,10 +156,10 @@
     <!-- Header -->
 <div class="container-fluid bg-secondary"  style="margin-top: 105px">
   <div class="row mt-4">
-     <div class="col-3" style="margin-top: 120px">
+     <div class="col-3  d-none d-sm-none d-md-block" style="margin-top: 120px">
 
     </div>
-    <div class="col-9 bg-white">
+    <div class="col-12 col-md-9 bg-white">
       <div class="row row-cols-1 row-cols-md-3 bg-secondary">
         <div class="owl-carousel owl-head owl-theme owl-loaded owl-drag">
         <div class="owl-stage-outer">
