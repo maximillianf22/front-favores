@@ -248,6 +248,27 @@
         </div>
       </div>
     </div>
+    <div class="container-fluid">
+    <div class="row mb-2 mt-4">
+     <div class="col-2 col pad-all  "></div>
+
+     <div class="col-8 col pad-all shadow-sm border rounded text-nowrap input-group">
+          <input class="searchProduct form-control" data-id="" data-slug="" type="text" id="searchProduct" name="searchProduct" value="" placeholder="Ingresa nombre del Producto a buscar" onkeyup="searchProduct()">
+           <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button"><i class="fas fa-search text-danger"></i></button>
+  </div>
+     </div>
+
+     <div class="col-2 col pad-all  "></div>
+
+     <!--
+     <div class="col-5 pad-all">
+          <div id="resultFindRow" class="store-search-result-totalProducts show_item" style="text-align:right"><span id="ResultFound_"> 
+               5 
+               <span class="c-muted-2">Productos encontrados</span></span></div>
+     </div>
+     -->
+</div>  </div>
       <h3>Lacteos</h3>
       <div id="filterProducts" class="container-fluid pad-lft pad-all " style="border-top:0px solid #F1F3F4">
     <div class="row pad-all">
