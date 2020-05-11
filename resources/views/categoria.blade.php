@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-  <meta charset="utf-8">
+ <head>
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="author" content="Developapp">
-  <title>Favores</title>
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/apple-icon.png') }}">
+  <title>
+    Favores
+  </title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   <link rel="stylesheet" href="{{asset('components/jquery-toast/jquery.toast.css') }} ">
   <link rel="stylesheet" href="{{asset('components/bootstrap/bootstrap.min.css') }} ">
@@ -25,6 +27,12 @@
   <link href="{{ asset('assets/css/nucleo-svg.css') }}" rel="stylesheet" />
   <!-- CSS Files -->
   <link href="{{ asset('assets/css/argon-design-system.min.css?v=1.0.2') }}" rel="stylesheet" />
+  <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+  <!-- Script Carousel -->
+  <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/vendors/jquery.min.js"></script>
+  <script src="https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js"></script>
+  </head>
 </head>
 
 <body>
@@ -122,6 +130,8 @@
      </div> 
  </div>
 </div>
+
+
  <div class="col-3 fixed-top" style="margin-top: 140px">
       <div class="list-group bg-white">
         <button type="button" class="list-group-item list-group-item-action active">
@@ -149,6 +159,94 @@
 
     </div>
     <div class="col-9 bg-white">
+      <div class="row row-cols-1 row-cols-md-3 bg-secondary">
+        <div class="owl-carousel owl-head owl-theme owl-loaded owl-drag">
+        <div class="owl-stage-outer">
+        <div class="owl-stage">
+
+            <div class="owl-item col-lg-4 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
+            <div class="item">
+              <div class="card-product m-0">
+                  <div class="card-image">
+                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                      <img src="https://d50xhnwqnrbqk.cloudfront.net/banners/web/3d4ce4766ed60e3a4de2501bd9382f1d.jpg" class="shad border-radius" alt="...">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-item col-lg-4 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
+            <div class="item">
+              <div class="card-product m-0">
+                  <div class="card-image">
+                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                      <img src="https://d50xhnwqnrbqk.cloudfront.net/banners/web/f331bd2fb320cde4b475e68493c5d875.jpg" class="shad border-radius" alt="...">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-item col-lg-4 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
+            <div class="item">
+              <div class="card-product m-0">
+                  <div class="card-image">
+                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                      <img src="https://d50xhnwqnrbqk.cloudfront.net/banners/web/940c7408303ef4d971b7202886ba5d9a.jpg" class="shad border-radius" alt="...">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-item col-lg-4 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
+            <div class="item">
+              <div class="card-product m-0">
+                  <div class="card-image">
+                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                      <img src="https://d50xhnwqnrbqk.cloudfront.net/banners/web/2554291e34bad47583d388e43d754323.jpg" class="shad border-radius" alt="...">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-item col-lg-4 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
+            <div class="item">
+              <div class="card-product m-0">
+                  <div class="card-image">
+                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                      <img src="https://d50xhnwqnrbqk.cloudfront.net/banners/web/0f2a9005e7509cc4d4a8b16caf4cade1.png" class="shad border-radius" alt="...">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-item col-lg-4 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
+            <div class="item">
+              <div class="card-product m-0">
+                  <div class="card-image">
+                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                      <img src="https://d50xhnwqnrbqk.cloudfront.net/banners/web/e1c8d8a73e65d61cd5fa4143c029edc5.jpg" class="shad border-radius" alt="...">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-item col-lg-4 col-md-3 col-sm-4 col-6 p-0" data-animation="zooming">
+            <div class="item">
+              <div class="card-product m-0">
+                  <div class="card-image">
+                    <a type="button" data-toggle="modal" data-target=".bd-example-modal-lg">
+                      <img src="https://d50xhnwqnrbqk.cloudfront.net/banners/web/5bd038395def59051fbddb5f271d116c.jpg" class="shad border-radius" alt="...">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
       <h3>Lacteos</h3>
       <div id="filterProducts" class="container-fluid pad-lft pad-all " style="border-top:0px solid #F1F3F4">
     <div class="row pad-all">
@@ -355,7 +453,7 @@
 
           </div>
   <hr>
-          <h3 class="mt-3">Embutidos</h3>
+          <h3>Embutidos</h3>
 
           <div id="filterProducts" class="container-fluid pad-lft pad-all " style="border-top:0px solid #F1F3F4">
     <div class="row pad-all">
@@ -514,7 +612,7 @@
   </div>
 
    <hr>
-          <h3 class="mt-3">Panaderia</h3>
+          <h3>Panaderia</h3>
 
           <div id="filterProducts" class="container-fluid pad-lft pad-all " style="border-top:0px solid #F1F3F4">
     <div class="row pad-all">
@@ -651,7 +749,32 @@
 </div>
 
 </div>
-  
+    <script> $('.owl-head').owlCarousel({
+        loop: true,
+        margin: 10,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                loop: true,
+                nav: true
+            },
+            600: {
+                items: 2,
+                loop: true,
+                nav: false
+            },
+            1100: {
+                items: 3,
+                loop: true,
+                nav: false
+            }
+
+        }
+    })</script>
  <!-- Argon Scripts -->
   <!-- Core -->
   <script type='text/javascript' src="{{asset('components/bootstrap/jquery.min.js')}}"></script>
