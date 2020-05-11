@@ -38,6 +38,7 @@
 <body>
   <!-- Main content -->
   <div class="main-content" id="panel">
+    <div class="main-content fixed-top">
     <!-- Topnav -->
    <nav class="navbar navbar-expand-lg p-0 m-0 navbar-dark bg-gradient-info">
     <div class="container">
@@ -130,7 +131,7 @@
      </div> 
  </div>
 </div>
-
+</div>
 
  <div class="col-3 fixed-top" style="margin-top: 140px">
       <div class="list-group bg-white">
@@ -153,7 +154,7 @@
       </div>
     </div>
     <!-- Header -->
-<div class="container-fluid bg-secondary">
+<div class="container-fluid bg-secondary"  style="margin-top: 105px">
   <div class="row mt-4">
      <div class="col-3" style="margin-top: 120px">
 
@@ -749,6 +750,7 @@
 </div>
 
 </div>
+
     <script> $('.owl-head').owlCarousel({
         loop: true,
         margin: 10,
