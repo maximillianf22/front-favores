@@ -70,7 +70,7 @@
         </div>
     </div>
 </nav>
-<div class="container_fluid menu-top-page shadow p-1">
+<div class="container_fluid menu-top-page shadow-sm p-1">
  <div class="row ">
      <div class="col col-lg-6 col-md-6 col-sm-6 ">
           <div class="store-header-2-x-search">
@@ -123,96 +123,533 @@
      </div> 
  </div>
 </div>
+ <div class="col-3 fixed-top" style="margin-top: 140px">
+      <div class="list-group bg-white">
+        <button type="button" class="list-group-item list-group-item-action active">
+          Super Mercado &nbsp;<i class="fa fa-angle-right"></i>
+        </button>
+        <button type="button" class="list-group-item list-group-item-action">Tecnologia &nbsp;<i class="fa fa-angle-down"></i></button>
+          <div class="container border-right border-left">
+            <div class="list-group list-group-flush mt-1 mb-1 ml-3">
+            <button type="button" class="list-group-item list-group-item-action p-2">Telefonos</button>
+            <button type="button" class="list-group-item list-group-item-action p-2">Televisores</button>
+            <button type="button" class="list-group-item list-group-item-action p-2">Laptops</button>
+            <button type="button" class="list-group-item list-group-item-action p-2">Accesorios</button>
+            <button type="button" class="list-group-item list-group-item-action p-2">Parlantes</button>
+            <button type="button" class="list-group-item list-group-item-action p-2">Smart Watch</button>
+            </div>
+          </div>
+        <button type="button" class="list-group-item list-group-item-action">Salud &nbsp;<i class="fa fa-angle-right"></i></button>
+        <button type="button" class="list-group-item list-group-item-action">Hogar &nbsp;<i class="fa fa-angle-right"></i></button>
+      </div>
+    </div>
     <!-- Header -->
-    <section class="container-fluid" style="padding-right: 16px !important; padding-left: 10px !important;}">
-    <div class="row">
-            <div class="col-md-3 p-0">
-                <div class="col-md-12 mt-2">
-                  <div class="card card-stats border">
-                    <div class="row m-2 border-top">
-                        <div class="col-12 display-5 text-uppercase font-weight-bold mt-4 ">Dilifavor</div>
-                    </div>
-                   <form class="p-3">
-                    <div class="form-group">
-                        <label for="exampleFormControlSelect1">Ciudad</label>
-                        <select class="form-control" id="exampleFormControlSelect1">
-                          <option>Barranquilla</option>
-                          <option>Cali</option>
-                          <option>Medellin</option>
-                          <option>Santa Marta</option>
-                        </select>
-                      </div>
-                      <div class="row">
-                        <div class="form-group  mx-auto d-block col-6">
-                            <div class="input-group">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text"><i class="ni ni-calendar-grid-58"></i></span>
-                                </div>
-                                <input class="form-control datepicker" placeholder="Selecciona la Fecha" type="text">
-                            </div>
-                        </div>
-                        <div class="form-group col-6">
-                        <select class="form-control" id="exampleFormControlSelect1">
-                          <option class="disabled">Hora</option>
-                          <option>1:00 - 2:00 pm</option>
-                          <option>3:00 - 4:00 pm</option>
-                          <option>5:00 - 6:00 pm</option>
-                          <option>7:00 - 8:00 pm</option>
-                        </select>
-                      </div>
-                      </div>
-                      <div class="container">
-                        <div class="shadow-sm p-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Dirección">
-                          </div>
-                          <div class="form-group">
-                            <label for="exampleFormControlTextarea1">¿Que debe hacer el mensajero en esta direccion?</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                        </div>
+<div class="container-fluid bg-secondary">
+  <div class="row mt-4">
+     <div class="col-3" style="margin-top: 120px">
 
-                        <div class="shadow-sm mt-2 p-3">
-                          <div class="form-group">
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Dirección">
-                          </div>
-                          <div class="form-group">
-                            <label for="exampleFormControlTextarea1">¿Que debe hacer el mensajero en esta direccion?</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-6"><i class="fas fa-add"></i> Añadir dirección</div>
-                          <div class="col-3 text-right">Ida y Vuelta
-                          </div>
-                          <div class="col-3">
-                            <label class="custom-toggle ">
-                              <input type="checkbox" checked="">
-                              <span class="custom-toggle-slider rounded-circle" data-label-off="NO" data-label-on="SI"></span>
-                            </label>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="¿Cuanto es el valor monetario de lo que transporta?">
-                      </div>
-
-                      <button class="btn btn-info btn-block p-2">CONFIRMAS SERVICIO</button>
-                    </form>
-                  </div>
-                </div>
+    </div>
+    <div class="col-9 bg-white">
+      <h3>Lacteos</h3>
+      <div id="filterProducts" class="container-fluid pad-lft pad-all " style="border-top:0px solid #F1F3F4">
+    <div class="row pad-all">
+            <div id="product-28" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(28)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200414231722.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Alpina Avena Original</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 2,398
+                              </div>
             </div>
-              <div class="col-md-9 p-0">
-                <div id="page-content-wrapper">
-                <!-- Map container -->
-                <div class="mapContainer" style="height: 130vh; width:100%">
-                    <div id="map" style="height:100%"></div>
-                </div>
+                        <span class="badge badge-secondary">
+              Sin variaciones
+            </span>
+                      </div>
+        </div>
+      </div>
+            <div id="product-29" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(29)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200414232059.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Alpina Bon Yurt Zucaritas</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 2,616
+                              </div>
             </div>
-            </div>      
-      </section> 
+                        <span class="badge badge-secondary">
+              Sin variaciones
+            </span>
+                      </div>
+        </div>
+      </div>
+            <div id="product-30" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(30)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200414232443.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Alpina Crema de Leche Bolsa</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 4,060
+                              </div>
+            </div>
+                        <span class="badge badge-success">
+                            + 1 variacion
+                          </span>
+                      </div>
+        </div>
+      </div>
+            <div id="product-31" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(31)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200414234208.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Alpina Crema de Leche</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 17,400
+                              </div>
+            </div>
+                        <span class="badge badge-secondary">
+              Sin variaciones
+            </span>
+                      </div>
+        </div>
+      </div>
+            <div id="product-32" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(32)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200414233527.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Alpina Cremosino Queso para untar</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 3,815
+                              </div>
+            </div>
+                        <span class="badge badge-success">
+                            + 1 variacion
+                          </span>
+                      </div>
+        </div>
+      </div>
+            <div id="product-33" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(33)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200414233914.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Alpina Queso Parmesano</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 7,630
+                              </div>
+            </div>
+                        <span class="badge badge-secondary">
+              Sin variaciones
+            </span>
+                      </div>
+        </div>
+      </div>
+            <div id="product-34" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(34)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200415001208.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Campi Mantequilla</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 8,175
+                              </div>
+            </div>
+                        <span class="badge badge-success">
+                            + 2 variaciones
+                          </span>
+                      </div>
+        </div>
+      </div>
+            <div id="product-55" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(55)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200415114705.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Queso Duro</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 21,364
+                              </div>
+            </div>
+                        <span class="badge badge-secondary">
+              Sin variaciones
+            </span>
+                      </div>
+        </div>
+      </div>
 
+          </div>
+  <hr>
+          <h3 class="mt-3">Embutidos</h3>
+
+          <div id="filterProducts" class="container-fluid pad-lft pad-all " style="border-top:0px solid #F1F3F4">
+    <div class="row pad-all">
+            <div id="product-66" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(66)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200416011951.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Cunit Butifarra Caribe</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 8,938
+                              </div>
+            </div>
+                        <span class="badge badge-secondary">
+              Sin variaciones
+            </span>
+                      </div>
+        </div>
+      </div>
+            <div id="product-67" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(67)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200416012413.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Cunit Cervecero</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 12,208
+                              </div>
+            </div>
+                        <span class="badge badge-secondary">
+              Sin variaciones
+            </span>
+                      </div>
+        </div>
+      </div>
+            <div id="product-68" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(68)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200416012827.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Cunit Chorichuzo</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 9,483
+                              </div>
+            </div>
+                        <span class="badge badge-secondary">
+              Sin variaciones
+            </span>
+                      </div>
+        </div>
+      </div>
+            <div id="product-69" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(69)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200416013212.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Cunit Chorizo Parrillada</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 8,284
+                              </div>
+            </div>
+                        <span class="badge badge-secondary">
+              Sin variaciones
+            </span>
+                      </div>
+        </div>
+      </div>
+            <div id="product-70" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(70)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200416013645.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Cunit Chorizo</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 5,777
+                              </div>
+            </div>
+                        <span class="badge badge-secondary">
+              Sin variaciones
+            </span>
+                      </div>
+        </div>
+      </div>
+
+            <div id="product-100" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(100)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200416224051.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">La Parisienne Carne Hamburguesa Express</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 9,919
+                              </div>
+            </div>
+                        <span class="badge badge-secondary">
+              Sin variaciones
+            </span>
+                      </div>
+        </div>
+      </div>
+          </div>
+  </div>
+
+   <hr>
+          <h3 class="mt-3">Panaderia</h3>
+
+          <div id="filterProducts" class="container-fluid pad-lft pad-all " style="border-top:0px solid #F1F3F4">
+    <div class="row pad-all">
+            <div id="product-9" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(9)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200416145018.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Pan KYS Pan Hamburguesa</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 3,161
+                              </div>
+            </div>
+                        <span class="badge badge-secondary">
+              Sin variaciones
+            </span>
+                      </div>
+        </div>
+      </div>
+            <div id="product-10" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(10)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200414211126.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Pan KYS Pan Sencillo</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 3,815
+                              </div>
+            </div>
+                        <span class="badge badge-success">
+                            + 2 variaciones
+                          </span>
+                      </div>
+        </div>
+      </div>
+            <div id="product-74" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(74)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200416150143.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Pan KYS Pan Sencillo</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 3,815
+                              </div>
+            </div>
+                        <span class="badge badge-secondary">
+              Sin variaciones
+            </span>
+                      </div>
+        </div>
+      </div>
+            <div id="product-75" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(75)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200416150534.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Pan KYS Pan Super</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 4,251
+                              </div>
+            </div>
+                        <span class="badge badge-secondary">
+              Sin variaciones
+            </span>
+                      </div>
+        </div>
+      </div>
+            <div id="product-76" class="col-6 col-md-2 col-sm-4" style="padding:5px 7px !important" onclick="viewProduct(76)">
+        <div class="sc-item-store ">
+          <div class="categorie">
+            <!-- <b>
+                              
+                              </b> -->
+            <!-- <div class="sticky "></div> -->
+          </div>
+          <div class="img-card-product-ql">
+                                    <img id="logoTheme" src="http://cafri.com.co/storage/products/item_20200416151144.jpg" alt="Producto">
+                                  </div>
+          <div class="info-article ">
+            <div class="name">Pan KYS Pan Mini</div>
+            <!-- <div class=""></div> -->
+            <div class="info-price ">
+              <div class="item-price">
+                                $ 2,834
+                              </div>
+            </div>
+                        <span class="badge badge-secondary">
+              Sin variaciones
+            </span>
+                      </div>
+        </div>
+      </div>
+          </div>
+  </div>
+  </div>
+    </div>
+  </div>
+</div>
 
 </div>
   
@@ -241,22 +678,6 @@
   <!--  Google Maps Plugin    -->
   <script src="{{ asset('assets/js/argon-design-system.min.js?v=1.2.0') }}" type="text/javascript"></script>
 
-      <script>
-      // This example adds a marker to indicate the position of Bondi Beach in Sydney,
-      // Colombia.
-      function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 13,
-          center: {lat:   10.993315, lng: -74.806905},
-        });
-
-      }
-
-    </script>
-
-    <script async defer
-             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVqj3iCGPfniWznDShImSfe8XQzjdiQrM&callback=initMap">
-    </script>
 </body>
 
 </html>
