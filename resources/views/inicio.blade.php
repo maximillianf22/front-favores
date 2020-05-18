@@ -395,7 +395,7 @@
           </div>
       </div>
 
-      <footer class="footer bg-gradient-secondary" style="border-top: 1px solid #636060; padding-top: 40px; margin-top:20px;">
+      <footer class="footer badge-success" style="border-top: 1px solid #636060; padding-top: 40px; margin-top:20px;">
         <div class="container-fluid">
           <div class="row bg-grey">
           <div class="col-4">
