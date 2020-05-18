@@ -137,7 +137,7 @@
         <div class="container"><br>
           <div class="row">
             <div class="col-lg-6 mt-5 col-md-5 d-flex justify-content-center flex-column">
-              <h2 class="title text-white">Palataforma de<strong>Domicilios</strong> Para Cualquier necedidad</h2>
+              <h2 class="title text-white">Palataforma de<strong>Domicilios</strong> Para Cualquier necesidad</h2>
               <h4 class="description text-white">Es una plataforma de comercio electronico para personas del comun en la cual puedes solicitar un domicilio totalmente personalizado y hacerle seguimiento al mismo
               tu negocio de forma facil, rapida y economica.</h4>
               <div class="info info-horizontal">
