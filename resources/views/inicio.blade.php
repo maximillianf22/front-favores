@@ -395,7 +395,7 @@
           </div>
       </div>
 
-      <footer class="footer bg-info" style="border-top: 1px solid #636060; padding-top: 40px; margin-top:20px;">
+      <footer class="footer bg-dark" style="border-top: 1px solid #636060; padding-top: 40px; margin-top:20px;">
         <div class="container-fluid">
           <div class="row bg-grey">
           <div class="col-4">
@@ -403,8 +403,8 @@
               <div class="icon icon-shape icon-shape-success icon-lg shadow rounded-circle text-success">
                 <i class="fas fa-credit-card fa-3x"></i>
               </div>
-              <h5 class="info-title  d-none d-sm-none d-md-block text-dark"><strong> Pagos </strong><br>En linea o Contraentrega</h5>
-              <p class="description px-0 text-center lead d-none d-sm-none d-md-block mt-0 text-dark"> <small>  Puedes pagar en linea y aprovecha la comodidad que te ofrecemos, o hazlo con efectivo en Contra Entrega. ¡Y siempre seguro!</small></p>
+              <h5 class="info-title  d-none d-sm-none d-md-block text-white"><strong> Pagos </strong><br>En linea o Contraentrega</h5>
+              <p class="description px-0 text-center lead d-none d-sm-none d-md-block mt-0 text-white"> <small>  Puedes pagar en linea y aprovecha la comodidad que te ofrecemos, o hazlo con efectivo en Contra Entrega. ¡Y siempre seguro!</small></p>
             </div>
           </div>
           <div class="col-4 border-left ">
@@ -412,8 +412,8 @@
               <div class="icon icon-shape icon-shape-success icon-lg shadow rounded-circle text-success">
                 <i class="fas fa-truck fa-3x"></i>
               </div>
-              <h5 class="info-title  d-none d-sm-none d-md-block text-dark"><strong>  Envíos </strong><br>Rápidos y seguros</h5>
-              <p class="description px-0 text-center lead d-none d-sm-none d-md-block mt-0 text-dark"><small> Con solo estar registrado en Nuestra Web, Puedes Contar que siempre tendrás tus domicilios a tiempo y en la mejor condición.</small></p>
+              <h5 class="info-title  d-none d-sm-none d-md-block text-white"><strong>  Envíos </strong><br>Rápidos y seguros</h5>
+              <p class="description px-0 text-center lead d-none d-sm-none d-md-block mt-0 text-white"><small> Con solo estar registrado en Nuestra Web, Puedes Contar que siempre tendrás tus domicilios a tiempo y en la mejor condición.</small></p>
             </div>
           </div>
           <div class="col-4">
@@ -421,8 +421,8 @@
               <div class="icon icon-shape icon-shape-success icon-lg shadow rounded-circle text-success">
                 <i class="fas fa-shield-alt fa-3x"></i>
               </div>
-              <h5 class="info-title  d-none d-sm-none d-md-block text-dark"><strong>  Seguridad </strong><br>De principio a fin</h5>
-              <p class="description px-0 text-center lead d-none d-sm-none d-md-block mt-0 text-dark"><small> ¡Sientete Seguro! En Favores, estás siempre protegido, contamos con polizas de seguro en los envios, siempre responsables y profesionales.</small></p>
+              <h5 class="info-title  d-none d-sm-none d-md-block text-white"><strong>  Seguridad </strong><br>De principio a fin</h5>
+              <p class="description px-0 text-center lead d-none d-sm-none d-md-block mt-0 text-white"><small> ¡Sientete Seguro! En Favores, estás siempre protegido, contamos con polizas de seguro en los envios, siempre responsables y profesionales.</small></p>
             </div>
           </div>
         </div>
