@@ -357,7 +357,7 @@
             <div class="row">
               <div class="col-lg-3 col-md-6 col-6">
                 <div class="info info-hover">
-                  <div class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary">
+                  <div class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-success">
                     <i class="ni ni-square-pin"></i>
                   </div>
                   <h4 class="info-title">Direccion</h4>
@@ -366,7 +366,7 @@
               </div>
               <div class="col-lg-3 col-md-6 col-6">
                 <div class="info info-hover">
-                  <div class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary">
+                  <div class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-success">
                     <i class="ni ni-email-83"></i>
                   </div>
                   <h4 class="info-title">Email</h4>
@@ -375,7 +375,7 @@
               </div>
               <div class="col-lg-3 col-md-6 col-6">
                 <div class="info info-hover">
-                  <div class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary">
+                  <div class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-success">
                     <i class="ni ni-mobile-button"></i>
                   </div>
                   <h4 class="info-title">Telefono</h4>
@@ -384,7 +384,7 @@
               </div>
               <div class="col-lg-3 col-md-6 col-6">
                 <div class="info info-hover">
-                  <div class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-primary">
+                  <div class="icon icon-shape icon-shape-primary icon-lg shadow rounded-circle text-success">
                     <i class="ni ni-circle-08"></i>
                   </div>
                   <h4 class="info-title">Contacto</h4>
