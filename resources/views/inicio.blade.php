@@ -136,14 +136,14 @@
       <div class="contactus-1 bg-default" style="background-image: url('{{asset('assets/img/ill/header.jpg')}}'); background-attachment: fixed; background-size:     cover;  background-repeat:   no-repeat;  background-position: center center; height: 65vh">
         <div class="container"><br>
           <div class="row">
-            <div class="col-lg-5 col-md-5 d-flex justify-content-center flex-column">
-              <h2 class="title text-white">Software de<strong>Domicilios</strong> Para Cualquier ocasión</h2>
+            <div class="col-lg-6 mt-5 col-md-5 d-flex justify-content-center flex-column">
+              <h2 class="title text-white">Palataforma de<strong>Domicilios</strong> Para Cualquier necedidad</h2>
               <h4 class="description text-white">Es una plataforma de comercio electronico para personas del comun en la cual puedes solicitar un domicilio totalmente personalizado y hacerle seguimiento al mismo
               tu negocio de forma facil, rapida y economica.</h4>
               <div class="info info-horizontal">
                 <div class="description">
                  <button class="btn btn-primary text-uppercase">Solicitar Servicio</button>
-                 <button class="btn btn-secondary text-uppercase">Registrarme</button>
+                 <button class="btn btn-secondary text-uppercase">Registrarme como dilifavor</button>
                 </div>
               </div>
             </div>
@@ -189,7 +189,6 @@
                 <a href="javascript:;">
                   <div class="card-body mb-4 text-center">
                     <h2 class="card-title mx-auto text-center">Registrate como Dilifavor</h2>
-                    <p class="card-description text-white mx-auto text-center">Genera ingresos, Mantente activo, Beneficios, y mas para ti</p>
                     <br>
                     <a class="btn btn-primary mx-auto text-center align-items-center" href="javascript:;">
                       Más Información
