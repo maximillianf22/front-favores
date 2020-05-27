@@ -5,8 +5,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/apple-icon.png') }}">
-  <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('domicilios/apple-icon.png') }}">
+  <link rel="icon" type="image/png" href="{{ asset('domicilios/favicon.png') }}">
   <title>
     Favores | Domicilios
   </title>
@@ -67,7 +67,7 @@
 </nav>
 <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid ml-4 mr-4">
-        <a class="navbar-brand" href="#"><img src="{{asset('assets/img/logo.png')}}" class="p-0 m-0" alt="" /></a>
+        <a class="navbar-brand" href="#"><img src="{{asset('domicilios/logo.png')}}" class="p-0 m-0" alt="" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-default" aria-controls="navbar-default" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -76,7 +76,7 @@
                 <div class="row">
                     <div class="col-6 collapse-brand"> 
                         <a href="#">
-                          <img src="{{asset('assets/img/logo.png')}}" class="p-0 m-0" alt="" />
+                          <img src="{{asset('domicilios/logo.png')}}" class="p-0 m-0" alt="" />
                         </a>
                     </div>
                     <div class="col-6 collapse-close">
@@ -133,7 +133,7 @@
 </nav>
   <!-- End Navbar -->
       <!--     *********     Header    -->
-      <div class="contactus-1 bg-default" style="background-image: url('{{asset('assets/img/ill/header.jpg')}}'); background-attachment: fixed; background-size:     cover;  background-repeat:   no-repeat;  background-position: center center; height: 65vh">
+      <div class="contactus-1 bg-default" style="background-image: url('{{asset('domicilios/ill/header.jpg')}}'); background-attachment: fixed; background-size:     cover;  background-repeat:   no-repeat;  background-position: center center; height: 65vh">
         <div class="container"><br>
           <div class="row">
             <div class="col-lg-6 mt-5 col-md-5 d-flex justify-content-center flex-column">
@@ -155,7 +155,7 @@
         <div class="row our-clients">
           <div class="mx-auto">
             <div class="container">
-              <h3 class="text-center">Alguno de Nuestros Clientes</h3>
+              <h3 class="text-center">Alguno de Nuestros Aliados</h3>
             </div>
             <img class="w-100" src="https://vendty.com/wp-content/uploads/2019/05/logos-new.fw_-1-2.png" alt="" />
           </div>
@@ -212,7 +212,7 @@
           <div class="row align-items-center">
             <div class="col-lg-3">
               <div class="card card-blog card-background" data-animation="zooming">
-                <div class="full-background" style="background-image: url('{{asset('assets/img/theme/funcion1.jpg')}}')"></div>
+                <div class="full-background" style="background-image: url('{{asset('domicilios/funcion1.jpg')}}')"></div>
                 <a href="javascript:;">
                   <div class="card-body">
                     <div class="content-bottom">
@@ -225,7 +225,7 @@
             </div>
             <div class="col-lg-3">
               <div class="card card-blog card-background" data-animation="zooming">
-                <div class="full-background" style="background-image: url('{{asset('assets/img/theme/funcion2.jpg')}}')"></div>
+                <div class="full-background" style="background-image: url('{{asset('domicilios/funcion2.jpg')}}')"></div>
                 <a href="javascript:;">
                   <div class="card-body">
                     <div class="content-bottom">
@@ -238,7 +238,7 @@
             </div>
             <div class="col-lg-6">
               <div class="card card-blog card-background" data-animation="zooming">
-                <div class="full-background" style="background-image: url('{{asset('assets/img/theme/funcion3.jpg')}}')"></div>
+                <div class="full-background" style="background-image: url('{{asset('domicilios/funcion3.jpg')}}')"></div>
                 <a href="javascript:;">
                   <div class="card-body">
                     <div class="content-bottom">
@@ -265,7 +265,7 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-6 col-10 mx-md-auto">
-              <img class="ml-lg-5" src="./assets/img/ill/ill2.png" width="100%">
+              <img class="ml-lg-5" src="./assets/ill/ill2.png" width="100%">
             </div>
             <div class="col-lg-6">
               <div class="info info-horizontal info-hover-success">
